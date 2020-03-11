@@ -46,16 +46,16 @@ namespace Xmaho.HelenHayes
         [Range(0, Constants.PositionCount - 1)] public int LeftAnkleIndex     = 16;
         [Range(0, Constants.PositionCount - 1)] public int LeftAnkleMedIndex  = 17;
         [Range(0, Constants.PositionCount - 1)] public int LeftHeelIndex      = 18;
-        [Range(0, Constants.PositionCount - 1)] public int LeftToeIndex       = 18;
-        [Range(0, Constants.PositionCount - 1)] public int RightAsisIndex     = 19;
-        [Range(0, Constants.PositionCount - 1)] public int RightTightIndex    = 20;
-        [Range(0, Constants.PositionCount - 1)] public int RightKneeIndex     = 21;
-        [Range(0, Constants.PositionCount - 1)] public int RightKneeMedIndex  = 22;
-        [Range(0, Constants.PositionCount - 1)] public int RightShankIndex    = 23;
-        [Range(0, Constants.PositionCount - 1)] public int RightAnkleIndex    = 24;
-        [Range(0, Constants.PositionCount - 1)] public int RightAnkleMedIndex = 25;
-        [Range(0, Constants.PositionCount - 1)] public int RightHeelIndex     = 26;
-        [Range(0, Constants.PositionCount - 1)] public int RightToeIndex      = 27;
+        [Range(0, Constants.PositionCount - 1)] public int LeftToeIndex       = 19;
+        [Range(0, Constants.PositionCount - 1)] public int RightAsisIndex     = 20;
+        [Range(0, Constants.PositionCount - 1)] public int RightTightIndex    = 21;
+        [Range(0, Constants.PositionCount - 1)] public int RightKneeIndex     = 22;
+        [Range(0, Constants.PositionCount - 1)] public int RightKneeMedIndex  = 23;
+        [Range(0, Constants.PositionCount - 1)] public int RightShankIndex    = 24;
+        [Range(0, Constants.PositionCount - 1)] public int RightAnkleIndex    = 25;
+        [Range(0, Constants.PositionCount - 1)] public int RightAnkleMedIndex = 26;
+        [Range(0, Constants.PositionCount - 1)] public int RightHeelIndex     = 27;
+        [Range(0, Constants.PositionCount - 1)] public int RightToeIndex      = 28;
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
