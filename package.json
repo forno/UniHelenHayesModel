@@ -1,0 +1,32 @@
+{
+  "name": "link.xmaho.helenhayesmodel",
+  "version": "0.0.1",
+  "displayName": "Helen Hayes Model",
+  "description": "Utility for Helen Hayes Model with DOTS",
+  "unity": "2019.4",
+  "dependencies": {
+    "com.unity.entities": "0.7.0-preview.19",
+    "com.unity.physics": "0.2.5-preview.1",
+    "com.unity.animation.rigging": "0.2.5-preview",
+    "link.xmaho.dotsutility": "0.0.1"
+  },
+  "keywords": [
+    "helen hayes model",
+    "dots",
+    "entities"
+  ],
+  "author": {
+    "name": "FORNO",
+    "email": "forno@xmaho.link",
+    "url": "https://github.com/forno"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "link.xmaho.dotsutility"
+      ]
+    }
+  ]
+}
